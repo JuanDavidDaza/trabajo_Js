@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Obra - Cien Años de Soledad - Gabriel Garcia Marquez</title>
 </head>
@@ -34,14 +35,14 @@
             </table>
         </div>
     </div>
-    <div class="banner">
+    <div class="banner" data-aos="fade-down">
         <h1>
             GABRIEL <br />
             GARCÍA <br />
             MÁRQUEZ
         </h1>
     </div>
-    <div id="descripcion">
+    <div id="descripcion" data-aos="fade-down">
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -77,22 +78,63 @@
                     <br>
                     <br>
                     <br>
-                    <img src="./img/cien-anos-de-soledad-6.jpg" alt="">
+                    <img src="./img/cien-anos-de-soledad-6.jpg" class="rounded mx-auto d-block" alt="">
                 </div>
             </div>
 
         </div>
     </div>
-    <div id="personajes">
+    <div id="personajes" data-aos="fade-down">
         <div class="container">
-            <img src="./img/personajes.gif" alt="">
+            <br>
+            <h1>Personajes</h1>
+            <hr>
+
+            <img src="./img/personajes.gif" class="img-fluid rounded mx-auto d-block" alt="">
+            <br>
+            <br>
+            <p><strong>Árbol genealógico de la familia Buendía.</strong></p>
+            <p>Primera generación: José Arcadio Buendía, Úrsula Iguarán.</p>
+            <p>Segunda generación: José Arcadio Buendia, coronel Aureliano Buendía, Amaranta, Rebeca.</p>
+            <p>Tercera generación: Arcadio, Aureliano José, 17 "Aurelianos".</p>
+            <p>Cuarta generación: Remedios, la bella, José Arcadio Segundo, Aureliano Segundo.</p>
+            <p>Quinta generación: Renata Remedios (Meme), José Arcadio, Amaranta Úrsula.</p>
+            <p>Sexta generación: Aureliano Babilonia.</p>
+            <p>Séptima generación: Aureliano/Rodrigo.</p>
         </div>
     </div>
 
+    <div id="adaptaciones" data-aos="fade-down">
+        <div class="container">
+            <br>
+            <h1>Adaptaciones</h1>
+            <hr>
+            <h3>Cien años de soledad" de Gabriel García Márquez, llegará a Netflix como una serie original</h3>
+            <br>
+            <p>"Cien años de soledad", del escritor colombiano Gabriel García Márquez, es uno de tus libros favoritos,
+                ya no tendrás que imaginarte cómo serían esas dos primeras líneas con las que abre el autor la historia
+                de los Buendía: "Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía
+                había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo".</p><br>
+            <p>La obra que hizo a García Márquez merecedor del Nobel de Literatura en 1982 llegará a las pantallas de
+                Netflix como una serie original.</p><br>
+            <p>"Netflix adquirió los derechos para desarrollar la aclamada y adoraba novela, considerada uno de los
+                trabajos (literarios) más significativos del siglo XX", dijo Netflix a través de un comunicado.</p>
+        </div>
+    </div>
 
+    <!-- inicio footer -->
+    <footer>
+        &copy; Desarrollada por el grupo Full Stack 2021 en BIT -
+        Bogotá Institute of Technology
+    </footer>
+    <!-- fin footer-->
 
 </body>
-<script src="js/index.js"></script>
+<script src="./js/index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 

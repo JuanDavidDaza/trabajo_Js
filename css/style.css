@@ -124,22 +124,40 @@ footer {
   text-align: justify;
   font-size: 18px;
 }
-#descripcion h1{
+#descripcion h1 {
   color: rgb(36, 29, 29);
   text-align: center;
 }
 hr {
   border: 0 none #ffffff;
-  border-top: 1px solid #d3bdbd;
-  height: 1px;
+  border-top: 1px solid #ffffff;
+  height: 4px;
   margin: 5px 0;
   display: block;
   clear: both;
+  font-size: 15px;
 }
 
 #personajes {
+  background-color: #E6E6FA;
+  color: rgb(44, 36, 36);
+  text-align: justify;
+  font-size: 18px;
+}
+
+#personajes h1 {
+  color: rgb(36, 29, 29);
+  text-align: center;
+}
+
+#adaptaciones {
   background-color: rgb(180, 194, 221);
   color: rgb(44, 36, 36);
   text-align: justify;
   font-size: 18px;
+}
+
+#adaptaciones h1 {
+  color: rgb(36, 29, 29);
+  text-align: center;
 }
