@@ -117,3 +117,29 @@ footer {
   text-align: center;
   padding: 20px 100px 70px 100px;
 }
+
+#descripcion {
+  background-color: rgb(180, 194, 221);
+  color: rgb(44, 36, 36);
+  text-align: justify;
+  font-size: 18px;
+}
+#descripcion h1{
+  color: rgb(36, 29, 29);
+  text-align: center;
+}
+hr {
+  border: 0 none #ffffff;
+  border-top: 1px solid #d3bdbd;
+  height: 1px;
+  margin: 5px 0;
+  display: block;
+  clear: both;
+}
+
+#personajes {
+  background-color: rgb(180, 194, 221);
+  color: rgb(44, 36, 36);
+  text-align: justify;
+  font-size: 18px;
+}
